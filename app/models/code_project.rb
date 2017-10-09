@@ -1,0 +1,2 @@
+class CodeProject < Project
+end

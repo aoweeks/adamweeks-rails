@@ -1,0 +1,2 @@
+class ArtProject < Project
+end
