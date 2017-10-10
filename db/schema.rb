@@ -24,8 +24,12 @@ ActiveRecord::Schema.define(version: 20171009201604) do
 
   create_table "projects", force: :cascade do |t|
     t.string "name"
-    t.datetime "date"
+    t.date "date"
     t.string "url"
+    t.string "thumbnail"
+    t.text "body_text"
+    t.string "background_colour"
+    t.string "font_colour"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["date"], name: "index_projects_on_date"
